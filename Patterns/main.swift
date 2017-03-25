@@ -91,4 +91,15 @@ let chineseTunicSuitB = ChineseTunicSuit(b)
 let tShirtB = TShirt(chineseTunicSuitB)
 tShirtB.show()
 
+// MARK: - 代理模式
+print("------------代理模式----------")
+var girl = SchoolGirl()
+girl.name = "Jane"
+
+let p = Sender(girl)
+
+p.giveDolls()
+p.giveFlowers()
+p.giveChocolate()
+
 
