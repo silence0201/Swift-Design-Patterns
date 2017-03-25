@@ -130,3 +130,11 @@ let pB = TestPaperB()
 pB.questionA()
 pB.questionB()
 pB.questionC()
+
+// MARK: - 外观模式
+print("------------外观模式----------")
+let fundManager = Fund()
+fundManager.buyBC()
+fundManager.buyABC()
+fundManager.sellAB()
+fundManager.sellABC()

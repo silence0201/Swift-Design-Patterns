@@ -17,6 +17,8 @@
 		E801B8A91E869ACC00F6B56C /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801B8A81E869ACC00F6B56C /* Resume.swift */; };
 		E801B8AC1E869E7F00F6B56C /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801B8AB1E869E7F00F6B56C /* Exam.swift */; };
 		E801B8AE1E869FD100F6B56C /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801B8AD1E869FD100F6B56C /* Paper.swift */; };
+		E801B8B11E86A35400F6B56C /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801B8B01E86A35400F6B56C /* Stock.swift */; };
+		E801B8B31E86A51600F6B56C /* Fund.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801B8B21E86A51600F6B56C /* Fund.swift */; };
 		E80B4CD11E8672C1006A6EB3 /* Factory_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B4CD01E8672C1006A6EB3 /* Factory_Method.swift */; };
 		E80B4CD31E8672F8006A6EB3 /* Abstract_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B4CD21E8672F8006A6EB3 /* Abstract_Factory.swift */; };
 		E80B4CD51E8675C7006A6EB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B4CD41E8675C7006A6EB3 /* User.swift */; };
@@ -48,6 +50,8 @@
 		E801B8A81E869ACC00F6B56C /* Resume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
 		E801B8AB1E869E7F00F6B56C /* Exam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
 		E801B8AD1E869FD100F6B56C /* Paper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = "<group>"; };
+		E801B8B01E86A35400F6B56C /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		E801B8B21E86A51600F6B56C /* Fund.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fund.swift; sourceTree = "<group>"; };
 		E80B4CD01E8672C1006A6EB3 /* Factory_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory_Method.swift; sourceTree = "<group>"; };
 		E80B4CD21E8672F8006A6EB3 /* Abstract_Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstract_Factory.swift; sourceTree = "<group>"; };
 		E80B4CD41E8675C7006A6EB3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -113,6 +117,15 @@
 			path = Template;
 			sourceTree = "<group>";
 		};
+		E801B8AF1E86A1F300F6B56C /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				E801B8B01E86A35400F6B56C /* Stock.swift */,
+				E801B8B21E86A51600F6B56C /* Fund.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
 		E80B4CCD1E867272006A6EB3 /* Factory_Method */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +163,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E801B8AF1E86A1F300F6B56C /* Facade */,
 				E801B8AA1E869D7100F6B56C /* Template */,
 				E801B8A51E8699C100F6B56C /* Prototype */,
 				E801B8A01E8692D600F6B56C /* Proxy */,
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E801B89A1E86887100F6B56C /* CashContext.swift in Sources */,
+				E801B8B11E86A35400F6B56C /* Stock.swift in Sources */,
 				E80B4CD31E8672F8006A6EB3 /* Abstract_Factory.swift in Sources */,
 				E86B76351E7CE70B003CDE9E /* Simple_Factory.swift in Sources */,
 				E80B4CD11E8672C1006A6EB3 /* Factory_Method.swift in Sources */,
@@ -240,6 +255,7 @@
 				E801B89D1E868E2C00F6B56C /* Person.swift in Sources */,
 				E86B762D1E7CE695003CDE9E /* main.swift in Sources */,
 				E801B8A91E869ACC00F6B56C /* Resume.swift in Sources */,
+				E801B8B31E86A51600F6B56C /* Fund.swift in Sources */,
 				E801B8AC1E869E7F00F6B56C /* Exam.swift in Sources */,
 				E801B89F1E868EBC00F6B56C /* Finery.swift in Sources */,
 				E801B8A71E869A1200F6B56C /* WorkExperience.swift in Sources */,
