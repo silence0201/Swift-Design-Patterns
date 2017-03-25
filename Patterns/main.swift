@@ -158,3 +158,9 @@ boss.detach(colleagueA)
 // 发出通知
 boss.notify()
 
+// MARK: - 委托模式
+print("------------委托模式----------")
+var delegate = MyDelegate()
+var obj = MyClass()
+obj.delegate = delegate
+obj.test()

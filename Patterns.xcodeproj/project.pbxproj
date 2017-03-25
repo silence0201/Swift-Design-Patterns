@@ -28,6 +28,8 @@
 		E8F9E0101E86A8B900315078 /* PersonBulider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E00F1E86A8B900315078 /* PersonBulider.swift */; };
 		E8F9E0131E86ADED00315078 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0121E86ADED00315078 /* Subject.swift */; };
 		E8F9E0151E86AE5500315078 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0141E86AE5500315078 /* Observer.swift */; };
+		E8F9E0181E86B1FB00315078 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0171E86B1FB00315078 /* Delegate.swift */; };
+		E8F9E01A1E86B28900315078 /* Obj.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0191E86B28900315078 /* Obj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +67,8 @@
 		E8F9E00F1E86A8B900315078 /* PersonBulider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonBulider.swift; sourceTree = "<group>"; };
 		E8F9E0121E86ADED00315078 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		E8F9E0141E86AE5500315078 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		E8F9E0171E86B1FB00315078 /* Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		E8F9E0191E86B28900315078 /* Obj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F9E0161E86B19D00315078 /* Delegate */,
 				E8F9E0111E86ADD500315078 /* Observer */,
 				E8F9E00E1E86A87E00315078 /* Builder */,
 				E801B8AF1E86A1F300F6B56C /* Facade */,
@@ -208,6 +213,15 @@
 				E8F9E0141E86AE5500315078 /* Observer.swift */,
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		E8F9E0161E86B19D00315078 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9E0171E86B1FB00315078 /* Delegate.swift */,
+				E8F9E0191E86B28900315078 /* Obj.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,11 +290,13 @@
 				E801B8981E8684A900F6B56C /* Cash.swift in Sources */,
 				E801B8A21E86939500F6B56C /* Pursuit.swift in Sources */,
 				E8F9E0101E86A8B900315078 /* PersonBulider.swift in Sources */,
+				E8F9E0181E86B1FB00315078 /* Delegate.swift in Sources */,
 				E80B4CD51E8675C7006A6EB3 /* User.swift in Sources */,
 				E801B8A41E86964E00F6B56C /* Send.swift in Sources */,
 				E801B89D1E868E2C00F6B56C /* Person.swift in Sources */,
 				E86B762D1E7CE695003CDE9E /* main.swift in Sources */,
 				E801B8A91E869ACC00F6B56C /* Resume.swift in Sources */,
+				E8F9E01A1E86B28900315078 /* Obj.swift in Sources */,
 				E801B8B31E86A51600F6B56C /* Fund.swift in Sources */,
 				E801B8AC1E869E7F00F6B56C /* Exam.swift in Sources */,
 				E801B89F1E868EBC00F6B56C /* Finery.swift in Sources */,
