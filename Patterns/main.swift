@@ -56,4 +56,28 @@ _ = iuB.get(1)
 let idB = DataAccess.createDepartment()
 idB.insert(departmentB)
 _ = idB.get(1)
-		
+
+// MARK: - 策略模式
+print("------------策略模式----------")
+var type = DiscountWay.twentyPersonOff
+var cc: CashContext
+switch type {
+case .twentyPersonOff:
+    cc = CashContext(CashRebate(0.8))
+case .every300Get100Return:
+    cc = CashContext(CashReturn(300, 100))
+default:
+    cc = CashContext(CashNormal())
+}
+print(cc.getResult(200))
+
+var cs = CashContextWithSimpleFactoryPattern(.Default)
+print(cs.getResult(100))
+
+cs = CashContextWithSimpleFactoryPattern(.twentyPersonOff)
+print(cs.getResult(200.5))
+
+cs = CashContextWithSimpleFactoryPattern(.every300Get100Return)
+print(cs.getResult(650))
+
+

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E801B8981E8684A900F6B56C /* Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801B8971E8684A900F6B56C /* Cash.swift */; };
+		E801B89A1E86887100F6B56C /* CashContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E801B8991E86887100F6B56C /* CashContext.swift */; };
 		E80B4CD11E8672C1006A6EB3 /* Factory_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B4CD01E8672C1006A6EB3 /* Factory_Method.swift */; };
 		E80B4CD31E8672F8006A6EB3 /* Abstract_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B4CD21E8672F8006A6EB3 /* Abstract_Factory.swift */; };
 		E80B4CD51E8675C7006A6EB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B4CD41E8675C7006A6EB3 /* User.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E801B8971E8684A900F6B56C /* Cash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
+		E801B8991E86887100F6B56C /* CashContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashContext.swift; sourceTree = "<group>"; };
 		E80B4CD01E8672C1006A6EB3 /* Factory_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory_Method.swift; sourceTree = "<group>"; };
 		E80B4CD21E8672F8006A6EB3 /* Abstract_Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstract_Factory.swift; sourceTree = "<group>"; };
 		E80B4CD41E8675C7006A6EB3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -48,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E801B8961E86843A00F6B56C /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				E801B8971E8684A900F6B56C /* Cash.swift */,
+				E801B8991E86887100F6B56C /* CashContext.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
 		E80B4CCD1E867272006A6EB3 /* Factory_Method */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E801B8961E86843A00F6B56C /* Strategy */,
 				E80B4CCF1E867277006A6EB3 /* Abstract_Factory */,
 				E80B4CCD1E867272006A6EB3 /* Factory_Method */,
 				E86B76331E7CE6F4003CDE9E /* Simple_Factory */,
@@ -159,9 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E801B89A1E86887100F6B56C /* CashContext.swift in Sources */,
 				E80B4CD31E8672F8006A6EB3 /* Abstract_Factory.swift in Sources */,
 				E86B76351E7CE70B003CDE9E /* Simple_Factory.swift in Sources */,
 				E80B4CD11E8672C1006A6EB3 /* Factory_Method.swift in Sources */,
+				E801B8981E8684A900F6B56C /* Cash.swift in Sources */,
 				E80B4CD51E8675C7006A6EB3 /* User.swift in Sources */,
 				E86B762D1E7CE695003CDE9E /* main.swift in Sources */,
 				E80B4CD71E8675DE006A6EB3 /* Department.swift in Sources */,
