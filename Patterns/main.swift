@@ -102,4 +102,21 @@ p.giveDolls()
 p.giveFlowers()
 p.giveChocolate()
 
+// MARK: - 原型模式
+print("------------原型模式----------")
+let resumeA = Resume("Kingcos")
+resumeA.setPersonInfo("Boy", "21")
+resumeA.setWorkExperience("2016.8", "School")
+
+let resumeB = resumeA.clone()
+resumeB.setWorkExperience("2016.9-2016.12", "School")
+
+let resumeC = resumeA.clone()
+resumeC.setWorkExperience("2014-2018", "University")
+
+//深拷贝
+resumeA.display()
+resumeB.display()
+resumeC.display()
+
 
