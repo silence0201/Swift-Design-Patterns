@@ -164,3 +164,14 @@ var delegate = MyDelegate()
 var obj = MyClass()
 obj.delegate = delegate
 obj.test()
+
+// MARK: - 状态模式
+print("------------状态模式----------")
+let work = Work()
+for i in stride(from: 9, through: 22, by: 1) {
+    if i == 17 {
+        work.isFinish = true
+    }
+    work.hour = i
+    work.writeProgram()
+}
