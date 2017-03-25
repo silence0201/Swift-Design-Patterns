@@ -144,3 +144,17 @@ print("------------建造者模式----------")
 var bulider = ThinPerson()
 let pp = bulider.createPerson()
 print(pp?.body ?? "")
+
+// MARK: - 观察者模式
+print("------------观察者模式----------")
+let boss = Boss()
+let colleagueA = StockObserver("A", boss)
+let colleagueB = NBAObserver("B", boss)
+// 添加通知者
+boss.attach(colleagueA)
+boss.attach(colleagueB)
+// 移除通知者
+boss.detach(colleagueA)
+// 发出通知
+boss.notify()
+
