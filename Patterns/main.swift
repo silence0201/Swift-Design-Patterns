@@ -187,3 +187,16 @@ playerB.defense()
 let playerC = Translator(name: "NiCo")
 playerC.attack()
 playerC.defense()
+
+// MARK: - 备忘录模式
+print("------------备忘录模式----------")
+var gp = GameRole()
+gp.stateDisplay()
+
+let stateAdmin = RoleStateCaretaker(memento: gp.saveState())
+
+gp.fight()
+gp.stateDisplay()
+
+gp.recoverState(stateAdmin.memento)
+gp.stateDisplay()
