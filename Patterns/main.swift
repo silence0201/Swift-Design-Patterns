@@ -138,3 +138,9 @@ fundManager.buyBC()
 fundManager.buyABC()
 fundManager.sellAB()
 fundManager.sellABC()
+
+// MARK: - 建造者模式
+print("------------建造者模式----------")
+var bulider = ThinPerson()
+let pp = bulider.createPerson()
+print(pp?.body ?? "")

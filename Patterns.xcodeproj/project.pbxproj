@@ -25,6 +25,7 @@
 		E80B4CD71E8675DE006A6EB3 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80B4CD61E8675DE006A6EB3 /* Department.swift */; };
 		E86B762D1E7CE695003CDE9E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B762C1E7CE695003CDE9E /* main.swift */; };
 		E86B76351E7CE70B003CDE9E /* Simple_Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B76341E7CE70B003CDE9E /* Simple_Factory.swift */; };
+		E8F9E0101E86A8B900315078 /* PersonBulider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E00F1E86A8B900315078 /* PersonBulider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		E86B76291E7CE695003CDE9E /* Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86B762C1E7CE695003CDE9E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E86B76341E7CE70B003CDE9E /* Simple_Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simple_Factory.swift; sourceTree = "<group>"; };
+		E8F9E00F1E86A8B900315078 /* PersonBulider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonBulider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F9E00E1E86A87E00315078 /* Builder */,
 				E801B8AF1E86A1F300F6B56C /* Facade */,
 				E801B8AA1E869D7100F6B56C /* Template */,
 				E801B8A51E8699C100F6B56C /* Prototype */,
@@ -183,6 +186,14 @@
 				E86B76341E7CE70B003CDE9E /* Simple_Factory.swift */,
 			);
 			path = Simple_Factory;
+			sourceTree = "<group>";
+		};
+		E8F9E00E1E86A87E00315078 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9E00F1E86A8B900315078 /* PersonBulider.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 				E80B4CD11E8672C1006A6EB3 /* Factory_Method.swift in Sources */,
 				E801B8981E8684A900F6B56C /* Cash.swift in Sources */,
 				E801B8A21E86939500F6B56C /* Pursuit.swift in Sources */,
+				E8F9E0101E86A8B900315078 /* PersonBulider.swift in Sources */,
 				E80B4CD51E8675C7006A6EB3 /* User.swift in Sources */,
 				E801B8A41E86964E00F6B56C /* Send.swift in Sources */,
 				E801B89D1E868E2C00F6B56C /* Person.swift in Sources */,
