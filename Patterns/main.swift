@@ -27,3 +27,33 @@ print(testAddition2.getResult() ?? "Error")
 var testDivison2 = Division2.createOperation()
 testDivison2.num = (2, 0)
 print(testDivison2.getResult() ?? "Error")
+
+// MARK: - 抽象工厂模式
+print("------------抽象工厂模式----------")
+let userA = User()
+let departmentA = Department()
+
+let factory = AccessFactory()
+
+let iuA = factory.createUser()
+iuA.insert(userA)
+_ = iuA.get(1)
+
+let idA = factory.createDepartment()
+idA.insert(departmentA)
+_ = idA.get(1)
+
+// MARK: - 简单工厂 + 抽象工厂
+print("------------简单工厂 + 抽象工厂----------")
+let userB = User()
+let departmentB = Department()
+
+DataAccess.database = .sqlServer
+let iuB = DataAccess.createUser()
+iuB.insert(userB)
+_ = iuB.get(1)
+
+let idB = DataAccess.createDepartment()
+idB.insert(departmentB)
+_ = idB.get(1)
+		
