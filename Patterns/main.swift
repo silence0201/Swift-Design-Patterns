@@ -119,4 +119,14 @@ resumeA.display()
 resumeB.display()
 resumeC.display()
 
+// MARK: - 模板模式
+print("------------模板模式----------")
+let pA = TestPaperA()
+pA.questionA()
+pA.questionB()
+pA.questionC()
 
+let pB = TestPaperB()
+pB.questionA()
+pB.questionB()
+pB.questionC()
