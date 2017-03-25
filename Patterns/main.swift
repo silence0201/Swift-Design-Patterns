@@ -175,3 +175,15 @@ for i in stride(from: 9, through: 22, by: 1) {
     work.hour = i
     work.writeProgram()
 }
+
+// MARK: - 适配器模式
+print("------------适配器模式----------")
+let playerA = Forwards(name: "小明")
+playerA.attack()
+
+let playerB = Guards(name: "小红")
+playerB.defense()
+
+let playerC = Translator(name: "NiCo")
+playerC.attack()
+playerC.defense()
