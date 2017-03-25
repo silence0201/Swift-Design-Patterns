@@ -80,4 +80,15 @@ print(cs.getResult(200.5))
 cs = CashContextWithSimpleFactoryPattern(.every300Get100Return)
 print(cs.getResult(650))
 
+// MARK: - 修饰模式
+print("------------修饰模式----------")
+var b = Boy("Ling")
+let tShirtA = TShirt(b)
+let chineseTunSuitA = ChineseTunicSuit(tShirtA)
+chineseTunSuitA.show()
+
+let chineseTunicSuitB = ChineseTunicSuit(b)
+let tShirtB = TShirt(chineseTunicSuitB)
+tShirtB.show()
+
 
