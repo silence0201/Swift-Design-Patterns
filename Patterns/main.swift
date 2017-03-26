@@ -243,3 +243,17 @@ var hs = HandsetBrandA(soft: HandsetGame())
 hs.run()
 hs.soft = HandsetAddressList()
 hs.run()
+
+// MARK: - 命令模式
+print("------------命令模式----------")
+let bbq = Barbecuer()
+let muttonA = BakeMuttonCommand(bbq)
+let muttonB = BakeMuttonCommand(bbq)
+let chickenWingA = BakeChickenWingCommand(bbq)
+
+var waiter = Waiter()
+
+waiter.setOrder(muttonA)
+waiter.setOrder(muttonB)
+waiter.setOrder(chickenWingA)
+waiter.notify()
