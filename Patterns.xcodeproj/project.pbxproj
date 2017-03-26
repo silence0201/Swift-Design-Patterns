@@ -49,6 +49,8 @@
 		E8F9E0471E878B2F00315078 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0461E878B2F00315078 /* Website.swift */; };
 		E8F9E04A1E878E3100315078 /* PlayContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0491E878E3100315078 /* PlayContext.swift */; };
 		E8F9E04C1E878E6000315078 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E04B1E878E6000315078 /* Expression.swift */; };
+		E8F9E04F1E87945A00315078 /* Person3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E04E1E87945A00315078 /* Person3.swift */; };
+		E8F9E0511E87950300315078 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0501E87950300315078 /* Action.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +109,8 @@
 		E8F9E0461E878B2F00315078 /* Website.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
 		E8F9E0491E878E3100315078 /* PlayContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayContext.swift; sourceTree = "<group>"; };
 		E8F9E04B1E878E6000315078 /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		E8F9E04E1E87945A00315078 /* Person3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person3.swift; sourceTree = "<group>"; };
+		E8F9E0501E87950300315078 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +215,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F9E04D1E8793E800315078 /* Visitor */,
 				E8F9E0481E878DBA00315078 /* Interpreter */,
 				E8F9E0451E878AF500315078 /* Flyweight */,
 				E8F9E0421E8784B500315078 /* Mediator */,
@@ -377,6 +382,15 @@
 			path = Interpreter;
 			sourceTree = "<group>";
 		};
+		E8F9E04D1E8793E800315078 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9E04E1E87945A00315078 /* Person3.swift */,
+				E8F9E0501E87950300315078 /* Action.swift */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -436,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E801B89A1E86887100F6B56C /* CashContext.swift in Sources */,
+				E8F9E0511E87950300315078 /* Action.swift in Sources */,
 				E801B8B11E86A35400F6B56C /* Stock.swift in Sources */,
 				E80B4CD31E8672F8006A6EB3 /* Abstract_Factory.swift in Sources */,
 				E86B76351E7CE70B003CDE9E /* Simple_Factory.swift in Sources */,
@@ -472,6 +487,7 @@
 				E801B8AE1E869FD100F6B56C /* Paper.swift in Sources */,
 				E8F9E0151E86AE5500315078 /* Observer.swift in Sources */,
 				E8F9E02F1E87616000315078 /* Iterator.swift in Sources */,
+				E8F9E04F1E87945A00315078 /* Person3.swift in Sources */,
 				E8F9E0471E878B2F00315078 /* Website.swift in Sources */,
 				E8F9E0371E87659200315078 /* HandsetBrand.swift in Sources */,
 				E8F9E01F1E86B4F400315078 /* State.swift in Sources */,

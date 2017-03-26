@@ -333,3 +333,20 @@ while context.text.characters.count > 1 {
     expression.interpret(&context)
 }
 
+// MARK: - 访问者模式
+print("------------访问者模式----------")
+var os = ObjectStructure()
+os.attach(Man("Kingcos"))
+os.attach(Woman("Jane"))
+
+let success = Success()
+os.display(success)
+
+let failing = Success()
+os.display(failing)
+
+let loving = Amativeness()
+os.display(loving)
+
+let marriage = Marriage()
+os.display(marriage)
