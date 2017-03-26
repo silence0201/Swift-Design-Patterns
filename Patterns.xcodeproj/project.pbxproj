@@ -38,6 +38,7 @@
 		E8F9E0291E86BD5300315078 /* RoleStateMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0281E86BD5300315078 /* RoleStateMemento.swift */; };
 		E8F9E02C1E86BF8100315078 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E02B1E86BF8100315078 /* Company.swift */; };
 		E8F9E02F1E87616000315078 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E02E1E87616000315078 /* Iterator.swift */; };
+		E8F9E0321E87632C00315078 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0311E87632C00315078 /* SingletonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,7 @@
 		E8F9E0281E86BD5300315078 /* RoleStateMemento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleStateMemento.swift; sourceTree = "<group>"; };
 		E8F9E02B1E86BF8100315078 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		E8F9E02E1E87616000315078 /* Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		E8F9E0311E87632C00315078 /* SingletonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F9E0301E87631500315078 /* Singleton */,
 				E8F9E02D1E87613500315078 /* Iterator */,
 				E8F9E02A1E86BF3900315078 /* Composite */,
 				E8F9E0251E86BC7D00315078 /* Memento */,
@@ -288,6 +291,14 @@
 			path = Iterator;
 			sourceTree = "<group>";
 		};
+		E8F9E0301E87631500315078 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9E0311E87632C00315078 /* SingletonClass.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +381,7 @@
 				E801B89F1E868EBC00F6B56C /* Finery.swift in Sources */,
 				E8F9E0131E86ADED00315078 /* Subject.swift in Sources */,
 				E8F9E02C1E86BF8100315078 /* Company.swift in Sources */,
+				E8F9E0321E87632C00315078 /* SingletonClass.swift in Sources */,
 				E801B8A71E869A1200F6B56C /* WorkExperience.swift in Sources */,
 				E8F9E0291E86BD5300315078 /* RoleStateMemento.swift in Sources */,
 				E801B8AE1E869FD100F6B56C /* Paper.swift in Sources */,

@@ -229,3 +229,10 @@ print("------------迭代器模式----------")
 for i in Crowd(end: 10){
     print(i)
 }
+
+// MARK: - 单例模式
+print("------------单例模式----------")
+var i = SingletonClass.sharedInstance
+i.pro = 100
+var j = SingletonClass.sharedInstance
+print(j.pro)
