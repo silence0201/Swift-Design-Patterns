@@ -276,3 +276,15 @@ commonMng.requestApplications(rqC)
 let rqD = Request(requestType: .salary, requestContent: "小菜加薪", number: 1000)
 commonMng.requestApplications(rqD)
 
+// MARK: - 中介者模式
+print("------------中介者模式----------")
+var unsc = UnitedNationsSecurityCouncil()
+let cA = CountryA(unsc)
+let cB = CountryB(unsc)
+
+unsc.cA = cA
+unsc.cB = cB
+
+cA.declare("Message A")
+cB.declare("Message B")
+
