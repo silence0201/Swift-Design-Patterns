@@ -36,6 +36,7 @@
 		E8F9E0241E86BAAD00315078 /* ForeignCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0231E86BAAD00315078 /* ForeignCenter.swift */; };
 		E8F9E0271E86BCAA00315078 /* GameRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0261E86BCAA00315078 /* GameRole.swift */; };
 		E8F9E0291E86BD5300315078 /* RoleStateMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0281E86BD5300315078 /* RoleStateMemento.swift */; };
+		E8F9E02C1E86BF8100315078 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E02B1E86BF8100315078 /* Company.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +82,7 @@
 		E8F9E0231E86BAAD00315078 /* ForeignCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignCenter.swift; sourceTree = "<group>"; };
 		E8F9E0261E86BCAA00315078 /* GameRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRole.swift; sourceTree = "<group>"; };
 		E8F9E0281E86BD5300315078 /* RoleStateMemento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleStateMemento.swift; sourceTree = "<group>"; };
+		E8F9E02B1E86BF8100315078 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F9E02A1E86BF3900315078 /* Composite */,
 				E8F9E0251E86BC7D00315078 /* Memento */,
 				E8F9E0201E86B95B00315078 /* Adapter */,
 				E8F9E01B1E86B49400315078 /* State */,
@@ -264,6 +267,14 @@
 				E8F9E0281E86BD5300315078 /* RoleStateMemento.swift */,
 			);
 			path = Memento;
+			sourceTree = "<group>";
+		};
+		E8F9E02A1E86BF3900315078 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9E02B1E86BF8100315078 /* Company.swift */,
+			);
+			path = Composite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +358,7 @@
 				E8F9E0221E86B9D600315078 /* Player.swift in Sources */,
 				E801B89F1E868EBC00F6B56C /* Finery.swift in Sources */,
 				E8F9E0131E86ADED00315078 /* Subject.swift in Sources */,
+				E8F9E02C1E86BF8100315078 /* Company.swift in Sources */,
 				E801B8A71E869A1200F6B56C /* WorkExperience.swift in Sources */,
 				E8F9E0291E86BD5300315078 /* RoleStateMemento.swift in Sources */,
 				E801B8AE1E869FD100F6B56C /* Paper.swift in Sources */,

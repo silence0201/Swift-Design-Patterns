@@ -200,3 +200,26 @@ gp.stateDisplay()
 
 gp.recoverState(stateAdmin.memento)
 gp.stateDisplay()
+
+// MARK: - 组合模式
+print("------------组合模式----------")
+let root = ConcreteCompany("总公司")
+root.add(HRDepartment("总公司人力资源部"))
+root.add(FinanceDepartment("总公司财务部"))
+
+let com = ConcreteCompany("分公司")
+com.add(HRDepartment("分公司人力资源部"))
+com.add(FinanceDepartment("分公司财务部"))
+root.add(com)
+
+let comA = ConcreteCompany("分公司 A")
+comA.add(HRDepartment("分公司 A 人力资源部"))
+comA.add(FinanceDepartment("分公司 A 财务部"))
+root.add(com)
+
+let comB = ConcreteCompany("办事处 B")
+comB.add(HRDepartment("办事处 B 人力资源部"))
+comB.add(FinanceDepartment("办事处 B 财务部"))
+root.add(comA)
+root.display(1)
+root.lineOfDuty()
