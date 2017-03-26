@@ -47,6 +47,8 @@
 		E8F9E0411E876D5400315078 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0401E876D5400315078 /* Manager.swift */; };
 		E8F9E0441E87852D00315078 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0431E87852D00315078 /* Mediator.swift */; };
 		E8F9E0471E878B2F00315078 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0461E878B2F00315078 /* Website.swift */; };
+		E8F9E04A1E878E3100315078 /* PlayContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0491E878E3100315078 /* PlayContext.swift */; };
+		E8F9E04C1E878E6000315078 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E04B1E878E6000315078 /* Expression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +105,8 @@
 		E8F9E0401E876D5400315078 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		E8F9E0431E87852D00315078 /* Mediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 		E8F9E0461E878B2F00315078 /* Website.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
+		E8F9E0491E878E3100315078 /* PlayContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayContext.swift; sourceTree = "<group>"; };
+		E8F9E04B1E878E6000315078 /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F9E0481E878DBA00315078 /* Interpreter */,
 				E8F9E0451E878AF500315078 /* Flyweight */,
 				E8F9E0421E8784B500315078 /* Mediator */,
 				E8F9E03D1E876CA200315078 /* Chain_of_Responsibility */,
@@ -363,6 +368,15 @@
 			path = Flyweight;
 			sourceTree = "<group>";
 		};
+		E8F9E0481E878DBA00315078 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9E0491E878E3100315078 /* PlayContext.swift */,
+				E8F9E04B1E878E6000315078 /* Expression.swift */,
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -426,6 +440,7 @@
 				E80B4CD31E8672F8006A6EB3 /* Abstract_Factory.swift in Sources */,
 				E86B76351E7CE70B003CDE9E /* Simple_Factory.swift in Sources */,
 				E80B4CD11E8672C1006A6EB3 /* Factory_Method.swift in Sources */,
+				E8F9E04C1E878E6000315078 /* Expression.swift in Sources */,
 				E8F9E0411E876D5400315078 /* Manager.swift in Sources */,
 				E801B8981E8684A900F6B56C /* Cash.swift in Sources */,
 				E801B8A21E86939500F6B56C /* Pursuit.swift in Sources */,
@@ -440,6 +455,7 @@
 				E801B8A91E869ACC00F6B56C /* Resume.swift in Sources */,
 				E8F9E01A1E86B28900315078 /* Obj.swift in Sources */,
 				E8F9E0271E86BCAA00315078 /* GameRole.swift in Sources */,
+				E8F9E04A1E878E3100315078 /* PlayContext.swift in Sources */,
 				E801B8B31E86A51600F6B56C /* Fund.swift in Sources */,
 				E801B8AC1E869E7F00F6B56C /* Exam.swift in Sources */,
 				E8F9E0221E86B9D600315078 /* Player.swift in Sources */,

@@ -309,3 +309,27 @@ wsE.use()
 
 print("分类数：\(f.getWebsiteCount())")
 
+// MARK: - 解释器模式
+print("------------解释器模式----------")
+var context = PlayContext(text:
+    " T 400 O 2 E 0.5 A 3 E 0.5 G 0.5 D 3 E 0.5 G 0.5 A 0.5 O 3 C 1 O 2 A 0.5 G 1 C 0.5 E 0.5 D 3 "
+)
+
+while context.text.characters.count > 1 {
+    let range = Range(uncheckedBounds: (context.text.index(after: context.text.startIndex), context.text.index(context.text.startIndex, offsetBy: 2)))
+    let str = context.text.substring(with: range)
+    
+    var expression = Expression()
+    
+    switch str {
+    case "T":
+        expression = Speed()
+    case "O":
+        expression = Scale()
+    case "C", "D", "E", "F", "G", "A", "B", "P":
+        expression = Note()
+    default: break
+    }
+    expression.interpret(&context)
+}
+
