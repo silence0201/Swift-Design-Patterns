@@ -50,6 +50,7 @@
 
 - [大话设计模式](https://book.douban.com/subject/2334288/)
 - [ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)
+- [kingcos/Swift-3-Design-Patterns](https://github.com/kingcos/Swift-3-Design-Patterns)
 
 ## 许可
 
