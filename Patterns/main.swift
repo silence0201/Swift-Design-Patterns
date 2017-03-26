@@ -236,3 +236,10 @@ var i = SingletonClass.sharedInstance
 i.pro = 100
 var j = SingletonClass.sharedInstance
 print(j.pro)
+
+// MARK: - 桥接器模式
+print("------------桥接器模式----------")
+var hs = HandsetBrandA(soft: HandsetGame())
+hs.run()
+hs.soft = HandsetAddressList()
+hs.run()
