@@ -257,3 +257,22 @@ waiter.setOrder(muttonA)
 waiter.setOrder(muttonB)
 waiter.setOrder(chickenWingA)
 waiter.notify()
+
+// MARK: - 责任链模式
+print("------------责任链模式----------")
+let generalMng = GeneralManager("总经理")
+let majordomo = Majordomo(name: "总监", superior: generalMng)
+let commonMng = CommonManager(name: "普通经理", superior: majordomo)
+
+let rqA = Request(requestType: .leave, requestContent: "小菜请假", number: 1)
+commonMng.requestApplications(rqA)
+
+let rqB = Request(requestType: .leave, requestContent: "小菜请假", number: 4)
+commonMng.requestApplications(rqB)
+
+let rqC = Request(requestType: .salary, requestContent: "小菜加薪", number: 200)
+commonMng.requestApplications(rqC)
+
+let rqD = Request(requestType: .salary, requestContent: "小菜加薪", number: 1000)
+commonMng.requestApplications(rqD)
+
