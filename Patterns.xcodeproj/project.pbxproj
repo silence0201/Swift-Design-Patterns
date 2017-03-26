@@ -46,6 +46,7 @@
 		E8F9E03F1E876CE100315078 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E03E1E876CE100315078 /* Request.swift */; };
 		E8F9E0411E876D5400315078 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0401E876D5400315078 /* Manager.swift */; };
 		E8F9E0441E87852D00315078 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0431E87852D00315078 /* Mediator.swift */; };
+		E8F9E0471E878B2F00315078 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9E0461E878B2F00315078 /* Website.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +102,7 @@
 		E8F9E03E1E876CE100315078 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		E8F9E0401E876D5400315078 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		E8F9E0431E87852D00315078 /* Mediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		E8F9E0461E878B2F00315078 /* Website.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 		E86B762B1E7CE695003CDE9E /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				E8F9E0451E878AF500315078 /* Flyweight */,
 				E8F9E0421E8784B500315078 /* Mediator */,
 				E8F9E03D1E876CA200315078 /* Chain_of_Responsibility */,
 				E8F9E0381E87685300315078 /* Command */,
@@ -352,6 +355,14 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
+		E8F9E0451E878AF500315078 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9E0461E878B2F00315078 /* Website.swift */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -445,6 +456,7 @@
 				E801B8AE1E869FD100F6B56C /* Paper.swift in Sources */,
 				E8F9E0151E86AE5500315078 /* Observer.swift in Sources */,
 				E8F9E02F1E87616000315078 /* Iterator.swift in Sources */,
+				E8F9E0471E878B2F00315078 /* Website.swift in Sources */,
 				E8F9E0371E87659200315078 /* HandsetBrand.swift in Sources */,
 				E8F9E01F1E86B4F400315078 /* State.swift in Sources */,
 				E80B4CD71E8675DE006A6EB3 /* Department.swift in Sources */,

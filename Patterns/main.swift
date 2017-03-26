@@ -288,3 +288,24 @@ unsc.cB = cB
 cA.declare("Message A")
 cB.declare("Message B")
 
+// MARK: - 享元模式
+print("------------享元模式----------")
+var f =  WebsiteFactory()
+
+let wsA = f.getWebsiteCategory("产品展示")
+wsA.use()
+
+let wsB = f.getWebsiteCategory("产品展示")
+wsB.use()
+
+let wsC = f.getWebsiteCategory("博客")
+wsC.use()
+
+let wsD = f.getWebsiteCategory("博客")
+wsD.use()
+
+let wsE = f.getWebsiteCategory("博客")
+wsE.use()
+
+print("分类数：\(f.getWebsiteCount())")
+
