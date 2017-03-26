@@ -223,3 +223,9 @@ comB.add(FinanceDepartment("办事处 B 财务部"))
 root.add(comA)
 root.display(1)
 root.lineOfDuty()
+
+// MARK: - 迭代器模式
+print("------------迭代器模式----------")
+for i in Crowd(end: 10){
+    print(i)
+}
